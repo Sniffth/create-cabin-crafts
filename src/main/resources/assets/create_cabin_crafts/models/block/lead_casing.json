@@ -1,0 +1,6 @@
+{
+	"parent": "minecraft:block/cube_all",
+	"textures": {
+		"wall": "create_cabin_crafts:block/lead_casing"
+	}
+}

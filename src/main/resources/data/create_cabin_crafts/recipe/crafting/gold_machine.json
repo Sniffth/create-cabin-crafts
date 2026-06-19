@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "R": {
+      "item": "create_cabin_crafts:reinforced_mechanism"
+    },
+    "C": {
+      "item": "create:railway_casing"
+    }
+  },
+  "pattern": [
+    "RRR",
+    "RCR",
+    "RRR"
+  ],
+  "result": {
+    "count": 1,
+    "id": "create_cabin_crafts:gold_machine"
+  }
+}

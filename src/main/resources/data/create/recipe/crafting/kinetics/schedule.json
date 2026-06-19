@@ -1,0 +1,17 @@
+{
+  "type": "create:item_application",
+  "ingredients": [
+    {
+      "item": "create_cabin_crafts:gold_machine"
+    },
+    {
+      "item": "minecraft:paper"
+    }
+  ],
+  "results": [
+    {
+      "id": "create:schedule",
+      "count": 4
+    }
+  ]
+}

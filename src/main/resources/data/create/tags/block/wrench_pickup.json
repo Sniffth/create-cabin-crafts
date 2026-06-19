@@ -1,0 +1,7 @@
+{
+  "replace": false,
+  "values": [
+    "create_cabin_crafts:andesite_machine",
+    "create_cabin_crafts:copper_machine"
+  ]
+}

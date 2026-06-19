@@ -1,0 +1,16 @@
+{
+  "type": "create:item_application",
+  "ingredients": [
+    {
+      "item": "create_cabin_crafts:copper_machine"
+    },
+    {
+      "item": "minecraft:copper_block"
+    }
+  ],
+  "results": [
+    {
+      "id": "create:copper_backtank"
+    }
+  ]
+}

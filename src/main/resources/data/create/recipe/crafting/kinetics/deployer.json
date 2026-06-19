@@ -1,0 +1,16 @@
+{
+  "type": "create:item_application",
+  "ingredients": [
+    {
+      "item": "create_cabin_crafts:andesite_machine"
+    },
+    {
+      "item": "create:brass_hand"
+    }
+  ],
+  "results": [
+    {
+      "id": "create:deployer"
+    }
+  ]
+}

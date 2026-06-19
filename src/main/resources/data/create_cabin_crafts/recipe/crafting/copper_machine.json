@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "S": {
+      "item": "create_cabin_crafts:sealed_mechanism"
+    },
+    "C": {
+      "item": "create:copper_casing"
+    }
+  },
+  "pattern": [
+    "SSS",
+    "SCS",
+    "SSS"
+  ],
+  "result": {
+    "count": 1,
+    "id": "create_cabin_crafts:copper_machine"
+  }
+}

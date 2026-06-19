@@ -1,0 +1,19 @@
+{
+  "type": "create:item_application",
+  "ingredients": [
+    {
+      "item": "create_cabin_crafts:brass_machine"
+    },
+    {
+      "item": "minecraft:comparator"
+    }
+  ],
+  "results": [
+    {
+      "id": "create:stockpile_switch"
+    },
+    {
+      "id": "create:stockpile_switch"
+    }
+  ]
+}

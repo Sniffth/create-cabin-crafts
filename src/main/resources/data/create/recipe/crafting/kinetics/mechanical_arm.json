@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "create_cabin_crafts:brass_machine"
+  },
+  "result": {
+    "count": 1,
+    "id": "create:mechanical_arm"
+  }
+}

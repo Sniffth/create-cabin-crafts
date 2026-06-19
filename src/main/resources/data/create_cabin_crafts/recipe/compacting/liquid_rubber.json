@@ -1,0 +1,15 @@
+{
+  "type": "create:compacting",
+  "ingredients": [
+    {
+      "tag": "create_cabin_crafts:leaves_for_rubber"
+    }
+  ],
+  "results": [
+    {
+      "id": "create_cabin_crafts:liquid_rubber",
+      "amount": 250
+    }
+  ],
+  "heatRequirement": "none"
+}

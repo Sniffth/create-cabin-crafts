@@ -1,0 +1,19 @@
+{
+  "type": "create:item_application",
+  "ingredients": [
+    {
+      "item": "create_cabin_crafts:brass_machine"
+    },
+    {
+      "item": "minecraft:observer"
+    }
+  ],
+  "results": [
+    {
+      "id": "create:content_observer"
+    },
+    {
+      "id": "create:content_observer"
+    }
+  ]
+}

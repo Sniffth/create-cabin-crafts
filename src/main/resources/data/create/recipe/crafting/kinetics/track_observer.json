@@ -1,0 +1,19 @@
+{
+  "type": "create:item_application",
+  "ingredients": [
+    {
+      "item": "create_cabin_crafts:gold_machine"
+    },
+    {
+      "item": "minecraft:observer"
+    }
+  ],
+  "results": [
+    {
+      "id": "create:track_observer"
+    },
+    {
+      "id": "create:track_observer"
+    }
+  ]
+}

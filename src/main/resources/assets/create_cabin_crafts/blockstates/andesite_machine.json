@@ -1,0 +1,8 @@
+{
+  "variants": {
+    "facing=north": { "model": "create_cabin_crafts:block/andesite_machine" },
+    "facing=south": { "model": "create_cabin_crafts:block/andesite_machine", "y": 180 },
+    "facing=west":  { "model": "create_cabin_crafts:block/andesite_machine", "y": 270 },
+    "facing=east":  { "model": "create_cabin_crafts:block/andesite_machine", "y": 90 }
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "item.create_cabin_crafts.saw_blade": "Saw blade",
+  "item.create_cabin_crafts.drill_head": "Drill head",
+  "item.create_cabin_crafts.kinetic_mechanism": "Kinetic mechanism",
+  "item.create_cabin_crafts.sealed_mechanism": "Sealed mechanism",
+  "item.create_cabin_crafts.reinforced_mechanism": "Reinforced mechanism",
+  "item.create_cabin_crafts.rubber": "Rubber",
+  "item.create_cabin_crafts.cured_rubber": "Cured rubber",
+  "item.create_cabin_crafts.liquid_rubber_bucket": "Bucket of resin",
+  "item.create_cabin_crafts.liquid_redstone_bucket": "Bucket of destabilized redstone",
+  "item.create_cabin_crafts.liquid_pulp_bucket": "Bucket of liquid pulp",
+
+  "block.create_cabin_crafts.andesite_machine": "Andesite machine",
+  "block.create_cabin_crafts.copper_machine": "Copper machine",
+  "block.create_cabin_crafts.gold_machine": "Gold machine",
+  "block.create_cabin_crafts.brass_machine": "Brass machine",
+
+  "fluid.create_cabin_crafts.liquid_rubber": "Resin",
+  "fluid.create_cabin_crafts.liquid_redstone": "Destabilized redstone",
+  "fluid.create_cabin_crafts.liquid_pulp": "Liquid pulp",
+
+  "creative_tab.create_cabin_crafts.tab": "Create: CABIN crafts"
+}

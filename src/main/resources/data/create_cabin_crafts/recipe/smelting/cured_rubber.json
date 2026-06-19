@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:smelting",
+  "category": "misc",
+  "cookingtime": 200,
+  "experience": 0.15,
+  "ingredient": {
+    "item": "create_cabin_crafts:rubber"
+  },
+  "result": {
+    "id": "create_cabin_crafts:cured_rubber"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "K": {
+      "item": "create_cabin_crafts:kinetic_mechanism"
+    },
+    "C": {
+      "item": "create:andesite_casing"
+    }
+  },
+  "pattern": [
+    "KKK",
+    "KCK",
+    "KKK"
+  ],
+  "result": {
+    "count": 1,
+    "id": "create_cabin_crafts:andesite_machine"
+  }
+}

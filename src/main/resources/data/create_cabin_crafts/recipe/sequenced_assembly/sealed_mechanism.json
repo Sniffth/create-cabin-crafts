@@ -1,0 +1,65 @@
+{
+  "type": "create:sequenced_assembly",
+  "ingredient": {
+    "item": "create_cabin_crafts:kinetic_mechanism"
+  },
+  "results": [
+    {
+      "id": "create_cabin_crafts:sealed_mechanism"
+    }
+  ],
+  "sequence": [
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "create_cabin_crafts:incomplete_sealed_mechanism"
+        },
+        [
+          {
+            "item": "create_cabin_crafts:cured_rubber"
+          }
+        ]
+      ],
+      "results": [
+        {
+          "id": "create_cabin_crafts:incomplete_sealed_mechanism"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "create_cabin_crafts:incomplete_sealed_mechanism"
+        },
+        [
+          {
+            "item": "create_cabin_crafts:cured_rubber"
+          }
+        ]
+      ],
+      "results": [
+        {
+          "id": "create_cabin_crafts:incomplete_sealed_mechanism"
+        }
+      ]
+    },
+    {
+      "type": "create:pressing",
+      "ingredients": [
+        {
+          "item": "create_cabin_crafts:incomplete_sealed_mechanism"
+        }
+      ],
+      "results": [
+        {
+          "id": "create_cabin_crafts:incomplete_sealed_mechanism"
+        }
+      ]
+    }
+  ],
+  "transitional_item": {
+    "id": "create_cabin_crafts:incomplete_sealed_mechanism"
+  }
+}

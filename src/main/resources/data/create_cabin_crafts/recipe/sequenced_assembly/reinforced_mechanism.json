@@ -1,0 +1,65 @@
+{
+  "type": "create:sequenced_assembly",
+  "ingredient": {
+    "item": "create_cabin_crafts:kinetic_mechanism"
+  },
+  "results": [
+    {
+      "id": "create_cabin_crafts:reinforced_mechanism"
+    }
+  ],
+  "sequence": [
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "create_cabin_crafts:incomplete_reinforced_mechanism"
+        },
+        [
+          {
+            "item": "create:sturdy_sheet"
+          }
+        ]
+      ],
+      "results": [
+        {
+          "id": "create_cabin_crafts:incomplete_reinforced_mechanism"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "create_cabin_crafts:incomplete_reinforced_mechanism"
+        },
+        [
+          {
+            "item": "create:sturdy_sheet"
+          }
+        ]
+      ],
+      "results": [
+        {
+          "id": "create_cabin_crafts:incomplete_reinforced_mechanism"
+        }
+      ]
+    },
+    {
+      "type": "create:pressing",
+      "ingredients": [
+        {
+          "item": "create_cabin_crafts:incomplete_reinforced_mechanism"
+        }
+      ],
+      "results": [
+        {
+          "id": "create_cabin_crafts:incomplete_reinforced_mechanism"
+        }
+      ]
+    }
+  ],
+  "transitional_item": {
+    "id": "create_cabin_crafts:incomplete_reinforced_mechanism"
+  }
+}

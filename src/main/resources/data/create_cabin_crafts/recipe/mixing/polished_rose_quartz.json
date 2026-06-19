@@ -1,0 +1,18 @@
+{
+  "type": "create:mixing",
+  "ingredients": [
+    {
+      "item": "minecraft:quartz"
+    },
+    {
+      "type": "neoforge:single",
+      "amount": 250,
+      "fluid": "create_cabin_crafts:liquid_redstone"
+    }
+  ],
+  "results": [
+    {
+      "id": "create:polished_rose_quartz"
+    }
+  ]
+}

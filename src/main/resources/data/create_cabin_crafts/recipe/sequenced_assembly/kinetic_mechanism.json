@@ -1,0 +1,65 @@
+{
+  "type": "create:sequenced_assembly",
+  "ingredient": {
+    "tag": "minecraft:wooden_slabs"
+  },
+  "results": [
+    {
+      "id": "create_cabin_crafts:kinetic_mechanism"
+    }
+  ],
+  "sequence": [
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "create_cabin_crafts:incomplete_kinetic_mechanism"
+        },
+        [
+          {
+            "item": "create:andesite_alloy"
+          }
+        ]
+      ],
+      "results": [
+        {
+          "id": "create_cabin_crafts:incomplete_mechanical_mechanism"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "create_cabin_crafts:incomplete_kinetic_mechanism"
+        },
+        [
+          {
+            "item": "create:andesite_alloy"
+          }
+        ]
+      ],
+      "results": [
+        {
+          "id": "create_cabin_crafts:incomplete_kinetic_mechanism"
+        }
+      ]
+    },
+    {
+      "type": "create:pressing",
+      "ingredients": [
+        {
+          "item": "create_cabin_crafts:incomplete_kinetic_mechanism"
+        }
+      ],
+      "results": [
+        {
+          "id": "create_cabin_crafts:incomplete_kinetic_mechanism"
+        }
+      ]
+    }
+  ],
+  "transitional_item": {
+    "id": "create_cabin_crafts:incomplete_kinetic_mechanism"
+  }
+}
