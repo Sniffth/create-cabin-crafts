@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "L": {
+      "item": "create_cabin_crafts:logistic_mechanism"
+    },
+    "C": {
+      "item": "create_cabin_crafts:lead_casing"
+    }
+  },
+  "pattern": [
+    "LLL",
+    "LCL",
+    "LLL"
+  ],
+  "result": {
+    "count": 1,
+    "id": "create_cabin_crafts:lead_machine"
+  }
+}

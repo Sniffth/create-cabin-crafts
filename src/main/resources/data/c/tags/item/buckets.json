@@ -1,0 +1,7 @@
+{
+  "values": [
+    "create_cabin_crafts:liquid_redstone_bucket",
+    "create_cabin_crafts:liquid_pulp_bucket",
+    "create_cabin_crafts:liquid_rubber_bucket"
+  ]
+}

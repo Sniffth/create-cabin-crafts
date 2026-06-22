@@ -1,0 +1,12 @@
+{
+  "replace": false,
+  "values": [
+    "create_cabin_crafts:andesite_machine",
+    "create_cabin_crafts:brass_machine",
+    "create_cabin_crafts:copper_machine",
+    "create_cabin_crafts:gold_machine",
+    "create_cabin_crafts:lead_machine",
+    "create_cabin_crafts:lead_ore",
+    "create_cabin_crafts:deepslate_lead_ore"
+  ]
+}

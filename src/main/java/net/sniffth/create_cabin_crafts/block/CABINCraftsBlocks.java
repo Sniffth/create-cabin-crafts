@@ -1,12 +1,9 @@
 package net.sniffth.create_cabin_crafts.block;
 
-import com.simibubi.create.AllSpriteShifts;
 import com.simibubi.create.content.decoration.encasing.CasingBlock;
-import com.simibubi.create.foundation.block.connected.*;
 import com.simibubi.create.foundation.data.BuilderTransformers;
 import com.simibubi.create.foundation.data.CreateRegistrate;
 import com.tterrag.registrate.util.entry.BlockEntry;
-import net.minecraft.resources.ResourceLocation;
 import net.minecraft.world.item.BlockItem;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.level.block.Block;
@@ -24,13 +21,18 @@ import net.sniffth.create_cabin_crafts.item.CABINCraftsItems;
 
 import java.util.function.Supplier;
 
-import static com.simibubi.create.foundation.block.connected.CTSpriteShifter.getCT;
 import static com.simibubi.create.foundation.data.TagGen.axeOrPickaxe;
 
 public class CABINCraftsBlocks {
     private static final CreateRegistrate REGISTRATE = CreateCABINCrafts.registrate();
 
     public static final DeferredRegister.Blocks BLOCKS = DeferredRegister.createBlocks(CreateCABINCrafts.MODID);
+    private static final BlockBehaviour.Properties machineProperties = BlockBehaviour.Properties.of()
+            .strength(2f)
+            .requiresCorrectToolForDrops()
+            .sound(SoundType.METAL)
+            .isViewBlocking((state, world, pos) -> false)
+            .noOcclusion();
     private static final VoxelShape ANDESITE_SHAPE = Shapes.or(Block.box(0, 0, 3, 16, 16, 16),
             Block.box(3, 14, 3, 13, 18, 17));
     private static final VoxelShape BRASS_SHAPE = Shapes.or(Block.box(0, 0, 0, 16, 4, 16),
@@ -61,8 +63,16 @@ public class CABINCraftsBlocks {
     public static final DeferredBlock<Block> LEAD_MACHINE = registerBlock("lead_machine",
             () -> new MachineBlock(BlockBehaviour.Properties.of()
                     .strength(2f).requiresCorrectToolForDrops().sound(SoundType.METAL).isViewBlocking((state, world, pos) -> false).noOcclusion(), LEAD_SHAPE));
+    public static final DeferredBlock<Block> LEAD_ORE = registerBlock("lead_ore",
+            () -> new Block(BlockBehaviour.Properties
+                    .of().strength(2f).requiresCorrectToolForDrops().sound(SoundType.STONE)));
+    public static final DeferredBlock<Block> DEEPSLATE_LEAD_ORE = registerBlock("deepslate_lead_ore",
+            () -> new Block(BlockBehaviour.Properties
+                    .of().strength(2f).requiresCorrectToolForDrops().sound(SoundType.DEEPSLATE)));
     public static final BlockEntry<CasingBlock> LEAD_CASING = REGISTRATE.block("lead_casing", CasingBlock::new)
+            .properties(p -> p.mapColor(MapColor.TERRACOTTA_BLUE).sound(SoundType.METAL).strength(3f).requiresCorrectToolForDrops())
             .transform(BuilderTransformers.casing(() -> CABINCraftsSpriteShifts.LEAD_CASING)).transform(axeOrPickaxe()).register();
+
 
     private static <T extends Block> DeferredBlock<T> registerBlock(String name, Supplier<T> block) {
         DeferredBlock<T> toReturn = BLOCKS.register(name, block);
@@ -77,6 +87,4 @@ public class CABINCraftsBlocks {
     public static void register(IEventBus eventBus) {
         BLOCKS.register(eventBus);
     }
-
-
 }

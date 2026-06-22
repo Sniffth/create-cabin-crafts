@@ -1,0 +1,6 @@
+{
+	"parent": "minecraft:block/cube_all",
+	"textures": {
+		"all": "create_cabin_crafts:block/deepslate_lead_ore"
+	}
+}

@@ -6,7 +6,7 @@
       "tag": "minecraft:logs"
     },
     {
-      "item": "create:copper_sheet"
+      "tag": "c:plates/copper"
     }
   ],
   "result": {

@@ -194,5 +194,5 @@ idea {
 }
 
 tasks.named('processResources', ProcessResources) {
-    duplicatesStrategy = DuplicatesStrategy.INCLUDE
+    duplicatesStrategy = DuplicatesStrategy.EXCLUDE
 }

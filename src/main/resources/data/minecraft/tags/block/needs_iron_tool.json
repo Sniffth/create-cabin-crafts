@@ -1,0 +1,7 @@
+{
+  "replace": false,
+  "values": [
+    "create_cabin_crafts:lead_ore",
+    "create_cabin_crafts:deepslate_lead_ore"
+  ]
+}

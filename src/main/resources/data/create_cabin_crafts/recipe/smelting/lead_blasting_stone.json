@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:blasting",
+  "category": "misc",
+  "cookingtime": 100,
+  "experience": 0.25,
+  "group": "lead",
+  "ingredient": {
+    "item": "create_cabin_crafts:lead_ore"
+  },
+  "result": {
+    "count": 1,
+    "id": "create_cabin_crafts:lead_ingot"
+  }
+}

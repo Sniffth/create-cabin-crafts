@@ -6,7 +6,7 @@
       "item": "minecraft:deepslate"
     },
     {
-      "item": "create:golden_sheet"
+      "tag": "c:plates/gold"
     }
   ],
   "result": {

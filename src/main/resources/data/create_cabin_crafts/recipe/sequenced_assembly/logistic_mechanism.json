@@ -1,0 +1,89 @@
+{
+  "type": "create:sequenced_assembly",
+  "ingredient": {
+    "item": "create:precision_mechanism"
+  },
+  "loops": 4,
+  "results": [
+    {
+      "id": "create_cabin_crafts:logistic_mechanism"
+    }
+  ],
+  "sequence": [
+    {
+      "type": "create:filling",
+      "ingredients": [
+        {
+          "item": "create_cabin_crafts:incomplete_logistic_mechanism"
+        },
+        {
+          "type": "neoforge:single",
+          "amount": 125,
+          "fluid": "create:tea"
+        }
+      ],
+      "results": [
+        {
+          "id": "create_cabin_crafts:incomplete_logistic_mechanism"
+        }
+      ]
+    },
+    {
+      "type": "create:filling",
+      "ingredients": [
+        {
+          "item": "create_cabin_crafts:incomplete_logistic_mechanism"
+        },
+        {
+          "type": "neoforge:single",
+          "amount": 30,
+          "fluid": "create_cabin_crafts:liquid_pulp"
+        }
+      ],
+      "results": [
+        {
+          "id": "create_cabin_crafts:incomplete_logistic_mechanism"
+        }
+      ]
+    },
+    {
+      "type": "create:filling",
+      "ingredients": [
+        {
+          "item": "create_cabin_crafts:incomplete_logistic_mechanism"
+        },
+        {
+          "type": "neoforge:single",
+          "amount": 30,
+          "fluid": "create_cabin_crafts:liquid_pulp"
+        }
+      ],
+      "results": [
+        {
+          "id": "create_cabin_crafts:incomplete_logistic_mechanism"
+        }
+      ]
+    },
+    {
+      "type": "create:filling",
+      "ingredients": [
+        {
+          "item": "create_cabin_crafts:incomplete_logistic_mechanism"
+        },
+        {
+          "type": "neoforge:single",
+          "amount": 30,
+          "fluid": "create_cabin_crafts:liquid_pulp"
+        }
+      ],
+      "results": [
+        {
+          "id": "create_cabin_crafts:incomplete_logistic_mechanism"
+        }
+      ]
+    }
+  ],
+  "transitional_item": {
+    "id": "create_cabin_crafts:incomplete_logistic_mechanism"
+  }
+}

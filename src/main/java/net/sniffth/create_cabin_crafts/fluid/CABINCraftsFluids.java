@@ -83,13 +83,24 @@ public class CABINCraftsFluids {
                 }
         ));
 
-           FluidInteractionRegistry.addInteraction(NeoForgeMod.LAVA_TYPE.value(), new FluidInteractionRegistry.InteractionInformation(
-                LIQUID_REDSTONE.get().getFluidType(),
+       FluidInteractionRegistry.addInteraction(NeoForgeMod.LAVA_TYPE.value(), new FluidInteractionRegistry.InteractionInformation(
+            LIQUID_REDSTONE.get().getFluidType(),
+            fluidState -> {
+                if (fluidState.isSource()) {
+                    return Blocks.OBSIDIAN.defaultBlockState();
+                } else {
+                    return Blocks.NETHERRACK.defaultBlockState();
+                }
+            }
+        ));
+
+        FluidInteractionRegistry.addInteraction(NeoForgeMod.LAVA_TYPE.value(), new FluidInteractionRegistry.InteractionInformation(
+                LIQUID_PULP.get().getFluidType(),
                 fluidState -> {
                     if (fluidState.isSource()) {
                         return Blocks.OBSIDIAN.defaultBlockState();
                     } else {
-                        return Blocks.NETHERRACK.defaultBlockState();
+                        return Blocks.BASALT.defaultBlockState();
                     }
                 }
         ));

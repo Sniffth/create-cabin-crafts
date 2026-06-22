@@ -25,6 +25,18 @@ public class CABINCraftsItems {
             () -> new Item(new Item.Properties()));
     public static final DeferredItem<Item> INCOMPLETE_REINFORCED_MECHANISM = ITEMS.register("incomplete_reinforced_mechanism",
             () -> new Item(new Item.Properties()));
+    public static final DeferredItem<Item> LOGISTIC_MECHANISM = ITEMS.register("logistic_mechanism",
+            () -> new Item(new Item.Properties()));
+    public static final DeferredItem<Item> INCOMPLETE_LOGISTIC_MECHANISM = ITEMS.register("incomplete_logistic_mechanism",
+            () -> new Item(new Item.Properties()));
+    public static final DeferredItem<Item> RAW_LEAD = ITEMS.register("raw_lead",
+            () -> new Item(new Item.Properties()));
+    public static final DeferredItem<Item> LEAD_INGOT = ITEMS.register("lead_ingot",
+            () -> new Item(new Item.Properties()));
+    public static final DeferredItem<Item> LEAD_PLATE = ITEMS.register("lead_sheet",
+            () -> new Item(new Item.Properties()));
+    public static final DeferredItem<Item> LEAD_NUGGET = ITEMS.register("lead_nugget",
+            () -> new Item(new Item.Properties()));
     public static final DeferredItem<Item> RUBBER = ITEMS.register("rubber",
             () -> new Item(new Item.Properties()));
     public static final DeferredItem<Item> CURED_RUBBER = ITEMS.register("cured_rubber",
