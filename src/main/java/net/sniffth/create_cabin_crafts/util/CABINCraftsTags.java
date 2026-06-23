@@ -18,6 +18,7 @@ public class CABINCraftsTags {
     public static class Items {
         public static final TagKey<Item> MACHINE = createTag("cabin_machines");
         public static final TagKey<Item> LEAVES_FOR_RUBBER = createTag("leaves_for_rubber");
+        public static final TagKey<Item> SAWS = createTag("saws");
 
         private static TagKey<Item> createTag(String name) {
             return ItemTags.create(ResourceLocation.fromNamespaceAndPath(CreateCABINCrafts.MODID, name));

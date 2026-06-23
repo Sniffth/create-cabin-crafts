@@ -5,6 +5,7 @@ import net.neoforged.bus.api.IEventBus;
 import net.neoforged.neoforge.registries.DeferredItem;
 import net.neoforged.neoforge.registries.DeferredRegister;
 import net.sniffth.create_cabin_crafts.CreateCABINCrafts;
+import net.sniffth.create_cabin_crafts.item.saws.CustomSaw;
 
 public class CABINCraftsItems {
     public static final DeferredRegister.Items ITEMS = DeferredRegister.createItems(CreateCABINCrafts.MODID);
@@ -41,6 +42,12 @@ public class CABINCraftsItems {
             () -> new Item(new Item.Properties()));
     public static final DeferredItem<Item> CURED_RUBBER = ITEMS.register("cured_rubber",
             () -> new Item(new Item.Properties()));
+    public static final DeferredItem<CustomSaw> STONE_SAW = ITEMS.register("stone_saw",
+            () -> new CustomSaw(new Item.Properties().durability(131)));
+    public static final DeferredItem<CustomSaw> IRON_SAW = ITEMS.register("iron_saw",
+            () -> new CustomSaw(new Item.Properties().durability(250)));
+    public static final DeferredItem<CustomSaw> DIAMOND_SAW = ITEMS.register("diamond_saw",
+            () -> new CustomSaw(new Item.Properties().durability(1561)));
 
     public static void register(IEventBus eventBus) {
         ITEMS.register(eventBus);

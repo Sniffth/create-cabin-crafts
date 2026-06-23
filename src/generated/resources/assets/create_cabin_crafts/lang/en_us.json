@@ -18,6 +18,9 @@
   "item.create_cabin_crafts.liquid_rubber_bucket": "Bucket of resin",
   "item.create_cabin_crafts.liquid_redstone_bucket": "Bucket of destabilized redstone",
   "item.create_cabin_crafts.liquid_pulp_bucket": "Bucket of liquid pulp",
+  "item.create_cabin_crafts.stone_saw": "Stone saw",
+  "item.create_cabin_crafts.iron_saw": "Iron saw",
+  "item.create_cabin_crafts.diamond_saw": "Diamond saw",
 
   "block.create_cabin_crafts.andesite_machine": "Andesite machine",
   "block.create_cabin_crafts.copper_machine": "Copper machine",

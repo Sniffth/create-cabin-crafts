@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "tag": "create_cabin_crafts:saws"
+    },
+    {
+      "tag": "minecraft:logs"
+    },
+    {
+      "item": "create:andesite_alloy"
+    },
+    {
+      "item": "create:cogwheel"
+    }
+  ],
+  "result": {
+    "count": 1,
+    "id": "create_cabin_crafts:kinetic_mechanism"
+  }
+}
