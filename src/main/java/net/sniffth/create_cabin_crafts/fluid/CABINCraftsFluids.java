@@ -78,7 +78,7 @@ public class CABINCraftsFluids {
                     if (fluidState.isSource()) {
                         return Blocks.OBSIDIAN.defaultBlockState();
                     } else {
-                        return Blocks.DEEPSLATE.defaultBlockState();
+                        return Blocks.CLAY.defaultBlockState();
                     }
                 }
         ));
@@ -100,7 +100,7 @@ public class CABINCraftsFluids {
                     if (fluidState.isSource()) {
                         return Blocks.OBSIDIAN.defaultBlockState();
                     } else {
-                        return Blocks.BASALT.defaultBlockState();
+                        return Blocks.DEEPSLATE.defaultBlockState();
                     }
                 }
         ));

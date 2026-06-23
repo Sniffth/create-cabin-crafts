@@ -23,11 +23,11 @@ public class CABINCraftsConfiguredFeatures {
         RuleTest stoneReplaceables = new TagMatchTest(BlockTags.STONE_ORE_REPLACEABLES);
         RuleTest deepslateReplaceables = new TagMatchTest(BlockTags.DEEPSLATE_ORE_REPLACEABLES);
 
-        List<OreConfiguration.TargetBlockState> overworldBismuthOres = List.of(
+        List<OreConfiguration.TargetBlockState> overworldLeadOres = List.of(
                 OreConfiguration.target(stoneReplaceables, CABINCraftsBlocks.LEAD_ORE.get().defaultBlockState()),
                 OreConfiguration.target(deepslateReplaceables, CABINCraftsBlocks.DEEPSLATE_LEAD_ORE.get().defaultBlockState()));
 
-        register(context, OVERWORLD_LEAD_ORE_KEY, Feature.ORE, new OreConfiguration(overworldBismuthOres, 9));
+        register(context, OVERWORLD_LEAD_ORE_KEY, Feature.ORE, new OreConfiguration(overworldLeadOres, 9));
     }
 
     public static ResourceKey<ConfiguredFeature<?, ?>> registerKey(String name) {
