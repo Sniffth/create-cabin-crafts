@@ -48,6 +48,9 @@ public class ModCreativeModeTab {
                         output.accept(CABINCraftsFluids.LIQUID_RUBBER.getBucket().get());
                         output.accept(CABINCraftsFluids.LIQUID_REDSTONE.getBucket().get());
                         output.accept(CABINCraftsFluids.LIQUID_PULP.getBucket().get());
+                        output.accept(CABINCraftsItems.DIAMOND_SAW);
+                        output.accept(CABINCraftsItems.STONE_SAW);
+                        output.accept(CABINCraftsItems.IRON_SAW);
                     }).build());
 
     public static void register(IEventBus eventBus) {

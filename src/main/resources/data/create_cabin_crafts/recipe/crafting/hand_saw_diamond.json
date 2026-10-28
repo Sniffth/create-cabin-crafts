@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "###",
+    "#oo"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:stick"
+    },
+    "o":{
+      "item": "minecraft:diamond"
+    }
+  },
+  "result": {
+    "count": 1,
+    "id": "create_cabin_crafts:diamond_saw"
+  }
+}

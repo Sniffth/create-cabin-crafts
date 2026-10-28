@@ -9,6 +9,8 @@ import net.minecraft.world.item.*;
 import net.minecraft.world.level.Level;
 import net.minecraft.world.level.block.Blocks;
 import net.minecraft.world.level.block.DispenserBlock;
+import net.minecraft.world.level.block.state.BlockState;
+import net.minecraft.world.level.material.Fluids;
 import net.neoforged.bus.api.IEventBus;
 import net.neoforged.neoforge.common.NeoForgeMod;
 import net.neoforged.neoforge.fluids.BaseFlowingFluid;
@@ -94,16 +96,16 @@ public class CABINCraftsFluids {
             }
         ));
 
-        FluidInteractionRegistry.addInteraction(NeoForgeMod.LAVA_TYPE.value(), new FluidInteractionRegistry.InteractionInformation(
-                LIQUID_PULP.get().getFluidType(),
-                fluidState -> {
-                    if (fluidState.isSource()) {
-                        return Blocks.OBSIDIAN.defaultBlockState();
-                    } else {
-                        return Blocks.DEEPSLATE.defaultBlockState();
+       FluidInteractionRegistry.addInteraction(NeoForgeMod.LAVA_TYPE.value(), new FluidInteractionRegistry.InteractionInformation(
+            LIQUID_PULP.get().getFluidType(),
+            fluidState -> {
+                if (fluidState.isSource()) {
+                    return Blocks.OBSIDIAN.defaultBlockState();
+                } else {
+                       return Blocks.DEEPSLATE.defaultBlockState();
                     }
                 }
-        ));
+       ));
 }
 
     private static final DispenseItemBehavior DEFAULT = new DefaultDispenseItemBehavior();
