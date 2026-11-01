@@ -1,0 +1,13 @@
+{
+  "type": "create:pressing",
+  "ingredients": [
+    {
+      "item": "create_cabin_crafts:lead_ingot"
+    }
+  ],
+  "results": [
+    {
+      "item": "create_cabin_crafts:lead_sheet"
+    }
+  ]
+}
