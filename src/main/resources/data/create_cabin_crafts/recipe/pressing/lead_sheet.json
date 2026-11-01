@@ -2,12 +2,12 @@
   "type": "create:pressing",
   "ingredients": [
     {
-      "item": "create_cabin_crafts:lead_ingot"
+      "tag": "c:ingots/lead"
     }
   ],
   "results": [
     {
-      "item": "create_cabin_crafts:lead_sheet"
+      "id": "create_cabin_crafts:lead_sheet"
     }
   ]
 }
